@@ -13,8 +13,17 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'dailyreportAI',
-  description: 'AI-Powered Childcare Reports',
+  title: 'SebyNela - AI Daily Reports for Childcare',
+  description: 'Generate personalized childcare reports in 30 seconds',
+  metadataBase: new URL('https://sebynela.com'),
+  openGraph: {
+    title: 'SebyNela',
+    description: 'AI-powered childcare reports',
+    url: 'https://sebynela.com',
+    siteName: 'SebyNela',
+    images: ['/og-image.png'],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
